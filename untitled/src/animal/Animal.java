@@ -1,8 +1,8 @@
 package animal;
 
-public abstract class Animal {
-    String name;
-    int age;
+public class Animal {
+    public String name;
+    public int age;
 
     public void rest(){
         System.out.println("Resting");
